@@ -8,6 +8,6 @@ eye.addEventListener("click", () => {
   //     input.type = "password";
   //   }
 
-  // REFACTOR
+  // refactor conditional operator
   input.type === "password" ? (input.type = "text") : (input.type = "password");
 });
